@@ -15,6 +15,7 @@
 
 
     <header>
+
         <div> 
             <a href="/index.html">
             <img id="logo" src="images.jpg" alt="krusty krab logo">
@@ -25,6 +26,28 @@
         <div>
             <nav>
                 <ul>
+                    <button type="button" class="btn btn-outline custom-outline " id="signUpButton" data-bs-toggle="modal" data-bs-target="#target">
+                        Sign Up
+            
+                    </button>
+                   
+                    <div class="modal" tabindex="-1" id="target">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Sign Up</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <p>Do you want to sign up for the waiting list?</p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Yes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     <button class="button10">Connect with us on LinkedIn</button>
                 </ul>
             </nav>
