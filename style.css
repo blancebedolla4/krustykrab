@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    background-color: rgb(153, 93, 195);
+    width: 100%;
+    background-size: cover;
+    background-image: url(logo.jpg);
+    height: 300px;
+}
+
+#logo{
+   width: 100px; 
+   border-radius: 50%;
+   transition: transform 2s;
+   padding: 10px; 
+}
+
+#logo:hover{
+  transform: rotate(360deg);
+}
+
+
+nav{
+    text-align: center;
+}
+
+li a{
+ text-decoration: none;
+}
+
+nav ul{
+    list-style-type: none;
+    background-color: rgb(175, 122, 215);
+    padding: 20px;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px;
+}
+
+nav ul li:hover {
+ background-color: rgb(220, 195, 234);
+}
+
+
+.col-md-4 img.rounded-circle {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden; 
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.menu-card {
+    flex:  0 1 calc(33.33% - 20px);
+    max-width: 300px; 
+    background-color: #a861c4;
+    border: 1px solid #8e4fb9;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.menu-card h3 {
+    color: #920e19;
+}
+
+.menu-card p {
+    color: #5f0c82;
+}
+
+.col-md-4.text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.testimonial-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.testimonial-card {
+    flex: 0 1 calc(16.666% - 20px);
+    background-color: #d99df1;
+    border: 1px solid #8e4fb9;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.testimonial-card h3 {
+    color: #920e19;
+}
+
+.testimonial-card p {
+    color: #5f0c82;
+}
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(89, 163, 223);
+    padding: 3px;
+    text-align: center;
+}
+
+.button10{
+    background-color: rgb(238, 105, 231);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    height: 30px;
+}
+
+.button10:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+  #logo:hover{
+     transform: rotate(360deg);
+   }
+    
